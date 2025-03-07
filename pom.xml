@@ -13,6 +13,8 @@
         <java.version>17</java.version>
         <surefire-plugin.version>3.5.2</surefire-plugin.version>
         <jacoco.plugin.version>0.8.12</jacoco.plugin.version>
+        <!--Sonar-->
+        <sonar.coverage.jacoco.xmlReportPaths>tls/target/jacoco-ut/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
     <modules>
