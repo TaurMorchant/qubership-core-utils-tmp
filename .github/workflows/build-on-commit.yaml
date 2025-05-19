@@ -7,7 +7,7 @@ jobs:
   mvn:
     uses: TaurMorchant/workflows-test/.github/workflows/run-maven-with-sonar.yaml@main
     with:
-      maven-goal: deploy
+      maven-goal: install
       java-version: 17
     secrets:
       maven-token: ${{ secrets.GITHUB_TOKEN }}
