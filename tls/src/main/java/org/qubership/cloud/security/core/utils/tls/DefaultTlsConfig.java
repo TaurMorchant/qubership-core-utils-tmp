@@ -24,6 +24,7 @@ public class DefaultTlsConfig implements TlsConfig {
         System.out.println("FOO");
         System.out.println("BAR");
         System.out.println("BAZ");
+        System.out.println("FOO");
     }
 
     @Override
