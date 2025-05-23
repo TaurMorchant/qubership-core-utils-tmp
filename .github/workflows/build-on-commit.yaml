@@ -7,7 +7,6 @@ jobs:
   mvn:
     uses: TaurMorchant/workflows-test/.github/workflows/maven-build.yaml@main
     with:
-      maven-goal: install
       java-version: 17
       event-name: ${{ github.event_name }}
       actor: ${{ github.actor }}
