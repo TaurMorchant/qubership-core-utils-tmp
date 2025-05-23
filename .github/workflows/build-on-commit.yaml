@@ -9,6 +9,8 @@ jobs:
     with:
       maven-goal: install
       java-version: 17
+      event-name: ${{ github.event_name }}
+      actor: ${{ github.actor }}
     secrets:
       maven-token: ${{ secrets.GITHUB_TOKEN }}
       sonar-token: ${{ secrets.SONAR_TOKEN }}
