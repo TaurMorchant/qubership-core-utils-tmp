@@ -21,6 +21,7 @@ public class DefaultTlsConfig implements TlsConfig {
         } catch (Exception e) {
             throw new TlsInitializationException("Failed to initialize tls objects", e);
         }
+        System.out.println("FOO");
     }
 
     @Override
