@@ -9,7 +9,6 @@ jobs:
   mvn:
     uses: TaurMorchant/workflows-test/.github/workflows/maven-build.yaml@main
     with:
-      java-version: 17
       event-name: ${{ github.event_name }}
       actor: ${{ github.actor }}
       sonar-project-key: ${{ vars.SONAR_PROJECT_KEY }}
