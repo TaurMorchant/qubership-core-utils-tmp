@@ -1,3 +1,5 @@
+[![Build on Push](https://github.com/TaurMorchant/qubership-core-utils-tmp/actions/workflows/build-on-commit.yaml/badge.svg?branch=main)](https://github.com/TaurMorchant/qubership-core-utils-tmp/actions/workflows/build-on-commit.yaml)
+
 # Core Utils - TLS Utilities
 
 A lightweight Java library providing TLS (Transport Layer Security) configuration and authentication utilities for secure communications.
